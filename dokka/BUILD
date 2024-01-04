@@ -41,6 +41,7 @@ java_library(
     name = "dokka_javadoc",
     resource_jars = [
         "@rules_dokka_dependencies//:com_soywiz_korlibs_korte_korte_jvm",
+	"@rules_dokka_dependencies//:org_jetbrains_markdown_jvm",
         "@rules_dokka_dependencies//:org_jetbrains_dokka_dokka_base",
         "@rules_dokka_dependencies//:org_jetbrains_dokka_javadoc_plugin",
         "@rules_dokka_dependencies//:org_jetbrains_dokka_kotlin_as_java_plugin",

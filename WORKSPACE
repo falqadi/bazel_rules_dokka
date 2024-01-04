@@ -16,9 +16,9 @@ rules_dokka_toolchains()
 
 ## Dokka Testing
 
-SKILIB_VERSION = "1.0.2"
+SKILIB_VERSION = "1.5.0"
 
-SKYLIB_SHA = "97e70364e9249702246c0e9444bccdc4b847bed1eb03c5a3ece4f83dfe6abc44"
+SKYLIB_SHA = "cd55a062e763b9349921f0f5db8c3933288dc8ba4f76dd9416aac68acee3cb94"
 
 http_archive(
     name = "bazel_skylib",
